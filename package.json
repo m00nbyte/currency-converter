@@ -1,6 +1,6 @@
 {
     "name": "@m00nbyte/currency-converter",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Effortlessly converts currency values between different denominations, utilizing the latest pricing data available from the frankfurter.app API",
     "author": "m00nbyte <office@moonbyte.at>",
     "keywords": [

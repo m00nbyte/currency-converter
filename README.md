@@ -22,6 +22,7 @@ yarn add -D @m00nbyte/currency-converter
 ### `query`
 
 Type: `string | number`
+
 Default: `undefined`
 
 Specifies the amount to convert. If only this parameter is provided, it is considered as the base currency.
@@ -29,6 +30,7 @@ Specifies the amount to convert. If only this parameter is provided, it is consi
 ### `fromCurrency`
 
 Type: `string | null`
+
 Default: `null`
 
 Specifies the currency code for the base currency. Defaults to null for automatic detection.
@@ -36,6 +38,7 @@ Specifies the currency code for the base currency. Defaults to null for automati
 ### `toCurrency`
 
 Type: `string | null`
+
 Default: `null`
 
 Specifies the currency code for the target currency. Defaults to null for automatic detection.
@@ -87,6 +90,7 @@ console.log(`Converted 100 EUR to USD: ${conversionResult}`);
 #### `amount`
 
 Type: `Number`
+
 Default: `undefined`
 
 Specifies the amount for the conversion.
@@ -96,6 +100,7 @@ Specifies the amount for the conversion.
 #### `currency`
 
 Type: `String`
+
 Default: `undefined`
 
 Sets the base currency for the conversion.
@@ -105,6 +110,7 @@ Sets the base currency for the conversion.
 #### `currency`
 
 Type: `String`
+
 Default: `undefined`
 
 Sets the target currency for the conversion and returns the converted amount.
